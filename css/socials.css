@@ -1,0 +1,44 @@
+.socials {
+  display: flex;
+}
+
+.socials--gap24 {
+  gap: 24px;
+}
+
+.socials--gap16 {
+  gap: 16px;
+}
+
+.socials--gap40 {
+  gap: 40px;
+}
+
+.socials__item {
+  width: 40px;
+  height: 40px;
+}
+
+.socials__link {
+  display: flex;
+  background-color: #4d5ae5;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 100%;
+}
+
+.socials__link--primary:hover,
+.socials__link--primary:focus {
+  background-color: #404bbf;
+}
+
+.socials__link--secondary:hover,
+.socials__link--secondary:focus {
+  background-color: #31d0aa;
+}
+
+.socials__icon {
+  fill: #f4f4fd;
+}
